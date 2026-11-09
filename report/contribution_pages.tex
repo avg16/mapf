@@ -1,0 +1,64 @@
+\newcommand{\memberheader}[2]{%
+{\LARGE\bfseries Individual member contributions}\par
+\vspace{3pt}
+\textbf{Project:} Learning When to Search for Multi Agent Path Finding\\
+\textbf{Institution:} IIT Roorkee\\
+\textbf{Name:} #1\qquad\textbf{Student ID:} #2\par
+\vspace{4pt}
+}
+\newcommand{\abhivanshpage}{%
+\memberheader{Abhivansh Gupta}{23112004}
+\textbf{Allocated role: Problem formulation, learned policy and search methods}
+
+The project idea and the central question of when a learned MAPF policy should invoke search are shared contributions. My individual allocation covers the environment, movement policy and search components, together with the corresponding technical explanation and submission review.
+
+\textbf{1. Problem formulation and environment}
+
+Responsibility for the MAPF formulation: starts and goals, legal actions, vertex conflicts, edge-swap conflicts, flowtime and makespan. This scope includes reviewing the random-grid environment and BFS distance fields, and explaining the distinction between the full $32\times32$ map and an agent's $11\times11$ observation window.
+
+\textbf{2. Learned policy and imitation learning}
+
+Responsibility for the policy methodology: four observation channels, CNN action probabilities, invalid-action masking and imitation learning from LaCAM trajectories. Review coverage includes the training procedure, the 74.6\% held-out action agreement, the sample-based validation split and why action accuracy alone does not establish episode success.
+
+\textbf{3. Collision shielding and search components}
+
+Responsibility for explaining the collision shield, priority inheritance with backtracking, policy-guided CS-PIBT and full-horizon LaCAM. The allocated technical review covers candidate ordering, sampled tie-breaking, collision safety, and the distinction between one-step coordination and planning across several timesteps.
+
+\textbf{4. Method documentation and code walkthrough}
+
+Responsibility for the method sections of the report and the first presentation segment. This includes the system pipeline, policy training, search hierarchy, algorithm explanations and a walkthrough of \texttt{grid.py}, \texttt{policy.py}, \texttt{pibt.py} and \texttt{lacam.py}.
+
+\textbf{5. Integration and submission review}
+
+Responsibility for reviewing how the environment, policy and search modules connect to the controller; checking setup instructions and model loading; and coordinating with Shivang on the consistency of the method description and experiment interpretation.
+
+\textbf{Primary deliverable scope:} Problem formulation, policy/search methodology, method presentation and technical code explanation. These responsibilities are the agreed allocation for individual preparation and review.
+}
+\newcommand{\shivangpage}{%
+\memberheader{Shivang Joshi}{23117132}
+\textbf{Allocated role: Search gate, experimental analysis and visual demonstration}
+
+The project idea and the central question of when a learned MAPF policy should invoke search are shared contributions. My individual allocation covers the gate, evaluation and demonstration, together with the corresponding result interpretation and submission review.
+
+\textbf{1. Gate design and training methodology}
+
+Responsibility for explaining the sixteen confidence, local-risk and temporal features, logistic gate score and search threshold. The allocated review covers counterfactual eight-step rollout labels, validation-based threshold selection, search-hold duration and the difference between predicting short-term benefit and predicting episode failure.
+
+\textbf{2. Experimental protocol and baseline comparisons}
+
+Responsibility for the evaluation setup: agent counts, test seeds, disjoint instance generation, baseline methods and random-trigger controls. This includes reviewing the 140 test instances, the saved method/parameter runs, retrospective search-frequency matching and the limitations of exact equal-compute claims.
+
+\textbf{3. Results and interpretation}
+
+Responsibility for the success, external search-call, runtime, flowtime and makespan comparisons. Review coverage includes the reported call savings, the common solved subset, the gate-alone negative result, the role of the LaCAM fallback and why plain LaCAM remains faster on the tested maps. This scope includes checking tables and plots against the retained result files.
+
+\textbf{4. Visual simulation and benchmarking}
+
+Responsibility for the demonstration walkthrough, including seeded maps, controller selection, playback, gate scores, search-call counters and recorded compute time. The allocated review covers the three-run comparison table, CSV export, and explaining why playback speed and repeated timings on one map are different from algorithm runtime and multi-map success rates.
+
+\textbf{5. Results documentation and submission review}
+
+Responsibility for the experiment, results, limitations and future-work sections of the report and the second presentation segment. This includes reviewing \texttt{gate.py}, \texttt{train.py}, \texttt{experiments.py}, the demo interface and the consistency of the packaged results with Abhivansh's method explanation.
+
+\textbf{Primary deliverable scope:} Gate methodology, evaluation evidence, result presentation and visual demonstration. These responsibilities are the agreed allocation for individual preparation and review.
+}

@@ -1,0 +1,15 @@
+expert solved 400/400 instances
+samples train=914301 val=101589 action freq=[0.13114707 0.21749697 0.21559618 0.21896859 0.21679119]
+training on mps
+epoch 1/10 val acc 0.741
+epoch 2/10 val acc 0.743
+epoch 3/10 val acc 0.744
+epoch 4/10 val acc 0.746
+epoch 5/10 val acc 0.745
+epoch 6/10 val acc 0.747
+epoch 7/10 val acc 0.746
+epoch 8/10 val acc 0.746
+epoch 9/10 val acc 0.746
+epoch 10/10 val acc 0.746
+/Library/Frameworks/Python.framework/Versions/3.12/lib/python3.12/multiprocessing/resource_tracker.py:254: UserWarning: resource_tracker: There appear to be 6 leaked semaphore objects to clean up at shutdown
+  warnings.warn('resource_tracker: There appear to be %d '

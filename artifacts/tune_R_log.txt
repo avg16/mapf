@@ -1,0 +1,7 @@
+R=None: val success 0.267  subopt on solved 1.232
+R=0.5: val success 0.467  subopt on solved 1.246
+R=1.0: val success 0.467  subopt on solved 1.246
+R=2.0: val success 0.467  subopt on solved 1.246
+R=4.0: val success 0.467  subopt on solved 1.270
+R=8.0: val success 0.333  subopt on solved 1.218
+chosen R = 0.5

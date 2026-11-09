@@ -1,0 +1,51 @@
+  gate labels: 20/120 instances
+  gate labels: 40/120 instances
+  gate labels: 60/120 instances
+  gate labels: 80/120 instances
+  gate labels: 100/120 instances
+  gate labels: 120/120 instances
+  gate labels: 20/40 instances
+  gate labels: 40/40 instances
+gate data train=4993 (pos 0.731)  val=1687 (pos 0.738)
+val AUC learned gate: 0.983
+val AUC confidence-only (1 - mean max p): 0.647
+tau1=0.505 (val trigger rate 0.676, recall 0.900)  tau2=1.000  conf_thr=0.226
+         frac_conflict +6.184
+           mean_margin +1.426
+             time_frac -1.415
+             mean_maxp -1.069
+           frac_active +0.953
+               density +0.786
+          repeat_count -0.579
+            min_margin -0.416
+     max_local_density +0.388
+            frac_stuck -0.384
+           max_entropy +0.211
+    mean_local_density -0.119
+         progress_rate -0.065
+        mean_free_nbrs +0.034
+              min_maxp -0.032
+          mean_entropy -0.020
+  recall=0.7 hold=1: val success 0.000 search rate 0.142
+  recall=0.7 hold=4: val success 0.208 search rate 0.197
+  recall=0.7 hold=8: val success 0.375 search rate 0.252
+  recall=0.8 hold=1: val success 0.292 search rate 0.210
+  recall=0.8 hold=4: val success 0.500 search rate 0.298
+  recall=0.8 hold=8: val success 0.708 search rate 0.442
+  recall=0.9 hold=1: val success 0.917 search rate 0.662
+  recall=0.9 hold=4: val success 0.917 search rate 0.736
+  recall=0.9 hold=8: val success 0.917 search rate 0.759
+  recall=0.95 hold=1: val success 0.958 search rate 0.801
+  recall=0.95 hold=4: val success 0.958 search rate 0.880
+  recall=0.95 hold=8: val success 0.958 search rate 0.908
+  recall=0.98 hold=1: val success 0.958 search rate 0.857
+  recall=0.98 hold=4: val success 0.958 search rate 0.918
+  recall=0.98 hold=8: val success 0.958 search rate 0.931
+chosen: recall=0.9 hold=1
+  conf_thr=0.5000 closed-loop rate 0.000 (target 0.610)
+  conf_thr=0.2500 closed-loop rate 0.285 (target 0.610)
+  conf_thr=0.1250 closed-loop rate 0.442 (target 0.610)
+  conf_thr=0.0625 closed-loop rate 0.953 (target 0.610)
+  conf_thr=0.0938 closed-loop rate 0.797 (target 0.610)
+  conf_thr=0.1094 closed-loop rate 0.606 (target 0.610)
+  conf_thr=0.1016 closed-loop rate 0.691 (target 0.610)

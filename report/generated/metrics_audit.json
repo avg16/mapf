@@ -1,0 +1,95 @@
+{
+  "raw_runs": 2500,
+  "main_runs": 1400,
+  "unique_test_instances": 140,
+  "common_solved_counts": {
+    "16": 20,
+    "32": 19,
+    "64": 14,
+    "96": 13,
+    "128": 13,
+    "160": 15,
+    "192": 9
+  },
+  "call_savings_min": 22.865412445730826,
+  "call_savings_max": 57.34939759036144,
+  "hybrid_mean_lacam_calls": 0.20714285714285716,
+  "random_probabilities": {
+    "16": 0.4244604316546763,
+    "32": 0.4601924759405074,
+    "64": 0.3346828609986504,
+    "96": 0.3562320032908268,
+    "128": 0.4640460210930009,
+    "160": 0.5526179367547952,
+    "192": 0.483150800336984
+  },
+  "summary_matches_raw": true,
+  "sweep": [
+    {
+      "method": "gate_sweep",
+      "param": 0.1538832373211467,
+      "success": 0.94,
+      "rate": 0.9259642740054028
+    },
+    {
+      "method": "gate_sweep",
+      "param": 0.3180850318445963,
+      "success": 0.9,
+      "rate": 0.8529022157276558
+    },
+    {
+      "method": "gate_sweep",
+      "param": 0.5049511493830889,
+      "success": 0.72,
+      "rate": 0.6867700236944505
+    },
+    {
+      "method": "gate_sweep",
+      "param": 0.8362978818114747,
+      "success": 0.18,
+      "rate": 0.27948986164309203
+    },
+    {
+      "method": "gate_sweep",
+      "param": 0.9668639224058077,
+      "success": 0.05,
+      "rate": 0.16999295622910182
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.1,
+      "success": 0.59,
+      "rate": 0.09970272195464006
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.2,
+      "success": 0.88,
+      "rate": 0.20346447223799424
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.3,
+      "success": 0.9,
+      "rate": 0.31277514667864037
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.45,
+      "success": 0.91,
+      "rate": 0.45524032451249574
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.6,
+      "success": 0.93,
+      "rate": 0.6091855724934853
+    },
+    {
+      "method": "random_sweep",
+      "param": 0.8,
+      "success": 0.92,
+      "rate": 0.8042384578795594
+    }
+  ]
+}
